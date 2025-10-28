@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import instagramLogo from './assets/instagram.svg'
+import youtubeLogo from './assets/YouTube.svg'
+import xLogo from './assets/X.svg'
+import appleMusicLogo from './assets/AppleMusic.svg'
+import spotifyLogo from './assets/spotify.svg'
+import marppleshopLogo from './assets/MarppleShop.svg'
 import './App.css'
 
 function App() {
@@ -9,24 +14,36 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://www.instagram.com/yerin_the_genuine/" target="_blank">
+          <img src={instagramLogo} className="logo" alt="instagram logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://www.youtube.com/@YerinBaekOfficial" target="_blank">
+          <img src={youtubeLogo} className="logo" alt="YouTube logo" />
+        </a>
+        <a href="https://x.com/yerinbaek" target="_blank">
+          <img src={xLogo} className="logo" alt="X logo" />
+        </a>
+        <a href="https://music.apple.com/us/artist/yerin-baek/1053924796" target="_blank">
+          <img src={appleMusicLogo} className="logo" alt="AppleMusic logo" />
+        </a>
+        <a href="https://open.spotify.com/artist/6dhfy4ByARPJdPtMyrUYJK" target="_blank">
+          <img src={spotifyLogo} className="logo" alt="Spotify logo" />
+        </a>
+        <a href="https://marpple.shop/kr/yerinbaek?srsltid=AfmBOop1f5TPEVenF4Uu0dgayRcGpNLGzcDRZIuHYUPCS2CXRlAxsMqF" target="_blank">
+          <img src={marppleshopLogo} className="logo" alt="MarppleShop logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>We Have To Love Her Songs!</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          I Love You {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          사랑 그녀를 하는 만큼 누르다!
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the logos to know more
       </p>
     </>
   )
